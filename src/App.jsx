@@ -1,0 +1,1 @@
+// archivo principal en el que se conectaran todos los componentes
