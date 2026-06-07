@@ -31,10 +31,10 @@ function Contacto() {
                     <p>¿Ya nos conocías?</p>
                     <div>
                         <input type="radio" id="si" name="respuesta" value="s"/>
-                        <label for="si">Sí</label>
+                        <label htmlFor="si">Sí</label>
 
                         <input type="radio" id="no" name="respuesta" value="n"/>
-                        <label for="no">No</label>
+                        <label htmlFor="no">No</label>
                     </div>
 
                 </div>
@@ -42,7 +42,7 @@ function Contacto() {
                 
                 <div className="checkbox-container">
                     <input type="checkbox" id="terminos" name="terminos"/>
-                    <label for="terminos">Acepto los términos</label>
+                    <label htmlFor="terminos">Acepto los términos</label>
                 </div>
 
                 
