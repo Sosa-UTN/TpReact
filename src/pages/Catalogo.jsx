@@ -1,4 +1,6 @@
 import React from 'react'
+import Card from '../components/Cards'; 
+import { productos } from '../data/productos';
 
 function Catalogo() {
   return (
@@ -17,55 +19,15 @@ function Catalogo() {
             </div>
         </div>
         <div className="contenedor-grilla">
-            <div className="card">
-                <img src="../img/hilo-azp-500y.jpg" alt=""/>
-                <div>
-                    <h3>Hilo AZP 500yds x 12u</h3>
-                    <p>$1000</p>
-                </div>
-            </div>
-            <div className="card">
-                <img src="../img/hilo-azp-2000y.jpg" alt=""/>
-                <div>
-                    <h3>Hilo AZP 2000yds x 3u</h3>
-                    <p>$1000</p>
-                </div>
-            </div>
-            <div className="card">
-                <img src="../img/hilo-azp-4000mts.jpg" alt=""/>
-                <div>
-                    <h3>Hilo AZP 4000mts x 2u</h3>
-                    <p>$1000</p>
-                </div>
-            </div>
-            <div className="card">
-                <img src="../img/alfileres-azp-2.jpg" alt=""/>
-                <div>
-                    <h3>Alfileres Rueda AZP x 12u</h3>
-                    <p>$1000</p>
-                </div>
-            </div>
-            <div className="card">
-                <img src="../img/hilo-algodón-judith.jpg" alt=""/>
-                <div>
-                    <h3>Hilo de Algodón Judith 100g</h3>
-                    <p>$1000</p>
-                </div>
-            </div>
-            <div className="card">
-                <img src="../img/Agujas-mod-cbx.jpg" alt=""/>
-                <div>
-                    <h3>Agujas Modista CBX x 25u</h3>
-                    <p>$1000</p>
-                </div>
-            </div>
-            <div className="card">
-                <img src="../img/canastita-grande-1.jpg" alt=""/>
-                <div>
-                    <h3>Canastita de Agujas</h3>
-                    <p>$1000</p>
-                </div>
-            </div>
+            {/* Bucle de cards de productos*/}
+            {productos.map((producto) => (
+                <Card 
+                    key= {producto.id}
+                    titulo= {producto.titulo}
+                    precio= {producto.precio}
+                    imagen= {producto.imagen}
+                />
+            ))}
         </div>
     </>
   )

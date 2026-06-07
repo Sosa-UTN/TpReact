@@ -1,13 +1,13 @@
 import React from 'react'
 
-function Cards() {
+function Cards({titulo, precio, imagen}) {
   return (
     <>
     <div className="card">
-        <img src="" alt=""/>
+        <img src={imagen} alt={`Imagen de ${titulo}`}/>
         <div>
-            <h3>Hilo AZP 500yds x 12u</h3>
-            <p>$1000</p>
+            <h3>{titulo}</h3>
+            <p>${precio}</p>
         </div>
     </div>
     </>
