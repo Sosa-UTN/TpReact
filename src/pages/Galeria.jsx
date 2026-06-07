@@ -15,56 +15,56 @@ function Galeria() {
             </ol>
             <div className="carrusel-interno carousel-inner">
                 <div className="carousel-item active">
-                    <img className="foto d-block w-100" src="../img/pompon-slider.jpeg" alt="First slide"/>
+                    <img className="foto d-block w-100" src="pompon-slider.jpeg" alt="First slide"/>
                     <div className="texto-de-foto carousel-caption d-none d-md-block">
                         <h1>Pompón Madroño</h1>
                         <p>detalles coloridos</p>
                     </div>
                 </div>
                 <div className="carousel-item">
-                    <img className="foto d-block w-100" src="../img/cintas-raso-slider.jpeg" alt="Second slide"/>
+                    <img className="foto d-block w-100" src="cintas-raso-slider.jpeg" alt="Second slide"/>
                     <div className="texto-de-foto carousel-caption d-none d-md-block">
                         <h1>Cintas de Raso</h1>
                         <p>100% sintéticas</p>
                     </div>
                 </div>
                 <div className="carousel-item">
-                    <img className="foto d-block w-100" src="../img/broderie-slider.jpeg" alt="Third slide"/>
+                    <img className="foto d-block w-100" src="broderie-slider.jpeg" alt="Third slide"/>
                     <div className="texto-de-foto carousel-caption d-none d-md-block">
                         <h1>Broderie de Algodón</h1>
                         <p>la mejor calidad</p>
                     </div>
                 </div>
                 <div className="carousel-item">
-                    <img className="foto d-block w-100" src="../img/cierres-met-slider.jpeg" alt="Third slide"/>
+                    <img className="foto d-block w-100" src="cierres-met-slider.jpeg" alt="Third slide"/>
                     <div className="texto-de-foto carousel-caption d-none d-md-block">
                         <h1>Cierres Metálicos</h1>
                         <p>resistencia y elegancia</p>
                     </div>
                 </div>
                 <div className="carousel-item">
-                    <img className="foto d-block w-100" src="../img/cierres-slider.jpeg" alt="Third slide"/>
+                    <img className="foto d-block w-100" src="cierres-slider.jpeg" alt="Third slide"/>
                     <div className="texto-de-foto carousel-caption d-none d-md-block">
                         <h1>Cierres Reforzados</h1>
                         <p>prácticos y económicos</p>
                     </div>
                 </div>
                 <div className="carousel-item">
-                    <img className="foto d-block w-100" src="../img/hilos-slider.jpeg" alt="Third slide"/>
+                    <img className="foto d-block w-100" src="hilos-slider.jpeg" alt="Third slide"/>
                     <div className="texto-de-foto carousel-caption d-none d-md-block">
                         <h1>Hilos de Poliester</h1>
                         <p>para máquina familiar</p>
                     </div>
                 </div>
                 <div className="carousel-item">
-                    <img className="foto d-block w-100" src="../img/hilo-algodon-slider.jpeg" alt="Third slide"/>
+                    <img className="foto d-block w-100" src="hilo-algodon-slider.jpeg" alt="Third slide"/>
                     <div className="texto-de-foto carousel-caption d-none d-md-block">
                         <h1>Hilo de Algodón</h1>
                         <p>tejidos con gancho</p>
                     </div>
                 </div>
                 <div className="carousel-item">
-                    <img className="foto d-block w-100" src="../img/hilo-bordar-slider.jpeg" alt="Third slide"/>
+                    <img className="foto d-block w-100" src="hilo-bordar-slider.jpeg" alt="Third slide"/>
                     <div className="texto-de-foto carousel-caption d-none d-md-block">
                         <h1>Hilos para Bordar</h1>
                         <p>100% Algodón</p>

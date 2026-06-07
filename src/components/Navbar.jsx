@@ -1,23 +1,24 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 
 function Navbar() {
   return (
     <>
     <header>
         <nav>
-            <a href="index.html" className="logo"><img src="img/corona-amarilla.png" alt=""/>
+            <Link to="/" className="logo"><img src="src/assets/corona-amarilla.png" alt=""/>
                 <p>MERCELAND</p>
-            </a>
+            </Link>
             <input type="checkbox" id="menu-toggle"/>
             <label for="menu-toggle" className="icono-hamburguesa">
                 <i className="fa-solid fa-bars"></i>
             </label>
             
             <ul className="nav-links">
-                <li> <a href="index.html"><i className="fa-solid fa-house"></i> Inicio</a></li>
-                <li><a href="html/catalogo.html"><i className="fa-solid fa-bag-shopping"></i> Catálogo</a></li>
-                <li><a href="html/galeria.html"><i className="fa-solid fa-image"></i> Galería</a></li>
-                <li><a href="html/contacto.html"><i className="fa-solid fa-phone"></i> Contacto</a></li>
+                <li><Link to="/"><i className="fa-solid fa-house"></i> Inicio</Link></li>
+                <li><Link to="/catalogo"><i className="fa-solid fa-bag-shopping"></i> Catálogo</Link></li>
+                <li><Link to="/galeria"><i className="fa-solid fa-image"></i> Galería</Link></li>
+                <li><Link to="/contacto"><i className="fa-solid fa-phone"></i> Contacto</Link></li>
             </ul>
         </nav>
     </header>
