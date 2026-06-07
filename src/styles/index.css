@@ -1,0 +1,111 @@
+/* ---------------------*/
+/*     Hero Section     */
+/* ---------------------*/
+
+.hero-section-div img {
+  height: calc(100vh - 65px);
+  width: 100%;
+  object-fit: cover;
+  /*para que no se deforme la imagen*/
+  object-position: center;
+  opacity: 0.8; /* transparencia */
+}
+
+.hero-section-div {
+  position: relative;
+  display: block;
+  color: white;
+  z-index: 1;
+  /* para que no tape al nav*/
+}
+
+.hero-section-div div {
+  /*(texto de herosection)*/
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+  text-align: center;
+  font-size: 10vw;
+  color: rgba(255, 255, 255, 0.955);
+  filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.8));
+}
+
+.seccion-cards {
+  display: flex;
+  height: calc(100vh - 60px);
+  width: 100%;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.seccion-cards h1 {
+  font-size: 45px;
+}
+
+.contenedor-cards {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  gap: 5px;
+}
+
+.index-card {
+  width: 30vw;
+  background-color: #3b06a1;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.6);
+  transition: transform 0.3s;
+}
+
+.index-card:hover {
+  transform: translateY(-5px);
+}
+
+.index-card img {
+  width: 100%;
+  height: 500px;
+  display: block;
+}
+
+.index-card div {
+  padding: 20px;
+  color: white;
+  font-size: larger;
+}
+
+@media screen and (max-width: 1024px) {
+  /*entre 1024px y 768px*/
+
+  .seccion-cards {
+    height: auto;
+    gap: 35px;
+    padding: 30px;
+  }
+
+  .contenedor-cards {
+    flex-direction: column;
+    gap: 25px;
+  }
+
+  .index-card {
+    width: 65vw;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  /*entre 768px y 360px*/
+  .seccion-cards h1 {
+    font-size: 30px;
+  }
+  .index-card {
+    width: 85vw;
+    height: auto;
+  }
+}
+
